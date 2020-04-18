@@ -1,4 +1,4 @@
 package com.wuhaoErHu.controller;
 
-public class TestAction {
+public class LoginAction {
 }
