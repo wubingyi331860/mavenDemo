@@ -1,7 +1,6 @@
 package com.wuhaoErHu.pojo;
 
 import java.io.File;
-import java.util.List;
 
 public class Product {
 
@@ -11,8 +10,15 @@ public class Product {
     private int stock;
     private String discribe;
     private File icon;
-    private List<File> images;
     private String id;
+    private String taobaoAddress;
+    public String getTaobaoAddress() {
+        return taobaoAddress;
+    }
+
+    public void setTaobaoAddress(String taobaoAddress) {
+        this.taobaoAddress = taobaoAddress;
+    }
 
     public String getName() {
         return name;
@@ -60,14 +66,6 @@ public class Product {
 
     public void setIcon(File icon) {
         this.icon = icon;
-    }
-
-    public List<File> getImages() {
-        return images;
-    }
-
-    public void setImages(List<File> images) {
-        this.images = images;
     }
 
     public String getId() {
