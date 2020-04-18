@@ -1,4 +1,4 @@
-package com.wuhaoErHu.controller;
+package com.wuhaoErHu.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.wuhaoErHu.intf.service.MainServiceIntf;
